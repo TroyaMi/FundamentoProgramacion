@@ -9,7 +9,6 @@ print("    CALCULADORA TRIGONOMETRICA "+ "\n")
 digito = int(input("Digite el numero que desea calcular: "))
 radianes = math.radians(digito)
 
-
 contador = 0
 
 while True:
@@ -24,11 +23,28 @@ while True:
         for n in range(10):                
             contador = contador + (-1)**n * radianes ** (2*n) / math.factorial((2*n))
             metpython = math.cos(digito)
-            print(f"El seno de {digito}  grados es: {contador: .3f} según serie de McLaurin, y según los métodos de Python es: {metpython: .3f}")
+            print(f"El coseno de {digito}  grados es: {contador: .3f} según serie de McLaurin, y según los métodos de Python es: {metpython: .3f}")
 
-    elif funciones == 3: 
+    elif funciones == 3:
         for n in range(10):
-            contador = contador + 
+            metpython = math.tan(digito)
+
+    elif funciones == 4:
+        for n in range(10):
+            metpython = math.
+
+    elif funciones == 7:
+        for n in range(10):
+            contador = contador + digito ** n / math.factorial(n)
+            metpython = math.exp(digito)
+            print(f"La exponencial de {digito} es : {contador: .3f}")
+
+    elif funciones == 8:
+        for n in range(10):
+            metpython = math.log(digito)
+            print(f"El logaritmo natural de {digito} es: {metpython: .3f}")
+
+
 
             
 
