@@ -51,7 +51,7 @@ while True:
             valor = float(input("Digite numero en radianes: "))
         else:
             print("Digitaste una opcion invalida \n")
-
+        suma=0
         for n in range(10): 
             fact = 1
             factorial = (2*n) 
@@ -77,7 +77,7 @@ while True:
             valor = float(input("Digite numero en radianes: "))
         else:
             print("Digitaste una opcion invalida \n")
-
+        suma=0
         for n in range(10):
             fact = 1 
             factorial = (2*n+1)
@@ -201,7 +201,7 @@ while True:
     elif funciones == 7: #El usuario calculara usando la funcion exponencial 
 
         digito = int(input("\nDigite el valor al que desee sacarle la exponencial: "))
-
+        suma=0
         for n in range(10):
             fact = 1
             factorial = (n)
@@ -224,11 +224,11 @@ while True:
             suma = suma + termino
 
         metpython = math.log(digito)
-        print(f"El logaritmo natural de {digito} es: {suma: .3f}")
+        print(f"El logaritmo natural de {digito: .0f} es: {suma: .3f}")
 
     elif funciones == 9:#El usuario calculara usando la funcion logaritmo decimal
         digito = float(input("\nDigite el valor al que desea sacarle el logaritmo decimal: "))
-
+        suma=0
         for n in range (10):
             logDeci = ((digito-1)/(digito+1))** (2*n+1)
             termino = ((1/(2*n+1) * logDeci) * 2)/2.30259
@@ -236,7 +236,7 @@ while True:
             suma = suma + termino
         metpython = math.log10(digito)
 
-        print(f"El logaritmo decimal de {digito} es: {suma: .3f}")
+        print(f"El logaritmo decimal de {digito: .0f} es: {suma: .3f}")
 
     else:
         print("Digitastes una opcion invalida :( ")
@@ -245,6 +245,7 @@ while True:
     print("\n")
     if res == "no":
         break
+    
 
 
 
