@@ -10,7 +10,7 @@ suma = 0
 while True:
     print("\n    CALCULADORA TRIGONOMETRICA "+"\n")
 
-    print("DIGITE")
+    print("DIGITE") #El usuario eligira alguna de las opciones para calcular 
     funciones = int(input(" 1 para calcular el seno: \n 2 para calcular el coseno: \n 3 para calcular la tangente: \n 4 para calcular el cosecante: \n 5 para calcular la secante: \n 6 para calcular el cotangente: \n 7 para calcular el exponencial: \n 8 para calcular el logaritmo natural: \n 9 para calcular el logaritmo decimal:\n \n"))
     
     if funciones == 1:#El usuario calculara usando la funcion seno
