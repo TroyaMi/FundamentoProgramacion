@@ -28,7 +28,7 @@ while True:
     elif funciones == 3:
         for n in range(10):
             metpython = math.tan(digito)
-
+'''
     elif funciones == 4:
         for n in range(10):
             metpython = math.
@@ -43,7 +43,7 @@ while True:
         for n in range(10):
             metpython = math.log(digito)
             print(f"El logaritmo natural de {digito} es: {metpython: .3f}")
-
+'''
 
 
             
