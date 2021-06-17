@@ -12,8 +12,9 @@ for i in range(0,n):
     lista.insert(1,ele)
     
 for i in range(0,n):
-    if lista[i] % 13 == 0
-    print(lista) 
+    if lista[i] % 13 == 0:
+
+        print(lista) 
     
     
         

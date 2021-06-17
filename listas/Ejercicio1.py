@@ -3,9 +3,9 @@
 
 A = []
 n = int(input("Digite el número de elementos que tendrá la lista: "))
-for i in range(0,n):
+for j in range(0,n):
     ele = int(input("Digite el valor a ingresar: "))
-    A.insert(i, ele)
+    A.insert(j, ele)
 print("Lista normal")
 print(A[:])
 
